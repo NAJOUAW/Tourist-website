@@ -1,0 +1,52 @@
+body {font-family: Arial, Helvetica, sans-serif;
+background: url(../img/Flo2.jpg);}
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;}
+
+nav{
+    background-color: rgb(250, 252, 130);
+    height: 80px;
+    width: 100%;
+}
+h2.logo{
+    color: rgb(95, 95, 95);
+    font-size:30px ;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+    text-align: center;
+  
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #fff894;
+  color: rgb(37, 37, 37);
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #035307;
+}
+
+.container {
+  margin: 200px;
+  border-radius: 5px;
+  background-color: #e0e0e0;
+  padding: 20px;
+}
